@@ -609,7 +609,8 @@ MP4Reader::ShouldSkip(bool aSkipToNextKeyframe, int64_t aTimeThreshold)
 
 nsRefPtr<MediaDecoderReader::VideoDataPromise>
 MP4Reader::RequestVideoData(bool aSkipToNextKeyframe,
-                            int64_t aTimeThreshold)
+                            int64_t aTimeThreshold,
+                            bool aForceDecodeAhead)
 {
   MOZ_ASSERT(OnTaskQueue());
   VLOG("skip=%d time=%lld", aSkipToNextKeyframe, aTimeThreshold);

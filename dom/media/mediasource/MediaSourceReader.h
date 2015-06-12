@@ -49,7 +49,7 @@ public:
 
   nsRefPtr<AudioDataPromise> RequestAudioData() override;
   nsRefPtr<VideoDataPromise>
-  RequestVideoData(bool aSkipToNextKeyframe, int64_t aTimeThreshold) override;
+  RequestVideoData(bool aSkipToNextKeyframe, int64_t aTimeThreshold, bool aForceDecodeAhead) override;
 
   virtual size_t SizeOfVideoQueueInFrames() override;
   virtual size_t SizeOfAudioQueueInFrames() override;

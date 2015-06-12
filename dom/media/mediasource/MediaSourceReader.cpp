@@ -304,7 +304,9 @@ MediaSourceReader::OnAudioNotDecoded(NotDecodedReason aReason)
 }
 
 nsRefPtr<MediaDecoderReader::VideoDataPromise>
-MediaSourceReader::RequestVideoData(bool aSkipToNextKeyframe, int64_t aTimeThreshold)
+MediaSourceReader::RequestVideoData(bool aSkipToNextKeyframe,
+                                    int64_t aTimeThreshold,
+                                    bool aForceDecodeAhead)
 {
   MOZ_ASSERT(OnTaskQueue());
   MOZ_DIAGNOSTIC_ASSERT(mSeekPromise.IsEmpty(), "No sample requests allowed while seeking");
@@ -360,7 +362,7 @@ MediaSourceReader::RequestVideoData(bool aSkipToNextKeyframe, int64_t aTimeThres
 void
 MediaSourceReader::DoVideoRequest()
 {
-  mVideoRequest.Begin(GetVideoReader()->RequestVideoData(mDropVideoBeforeThreshold, GetReaderVideoTime(mTimeThreshold))
+  mVideoRequest.Begin(GetVideoReader()->RequestVideoData(mDropVideoBeforeThreshold, GetReaderVideoTime(mTimeThreshold), false)
                       ->Then(TaskQueue(), __func__, this,
                              &MediaSourceReader::OnVideoDecoded,
                              &MediaSourceReader::OnVideoNotDecoded));

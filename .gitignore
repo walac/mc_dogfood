@@ -4,6 +4,7 @@
 /.hg/*
 */.hg/*
 .hgignore
+.hg*
 
 # Filenames that should be ignored wherever they appear
 *~

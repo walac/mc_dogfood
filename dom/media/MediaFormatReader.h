@@ -35,15 +35,15 @@ public:
 
   virtual ~MediaFormatReader();
 
-  nsresult Init(MediaDecoderReader* aCloneDonor) override;
+  virtual nsresult Init(MediaDecoderReader* aCloneDonor) override;
 
-  size_t SizeOfVideoQueueInFrames() override;
-  size_t SizeOfAudioQueueInFrames() override;
+  virtual size_t SizeOfVideoQueueInFrames() override;
+  virtual size_t SizeOfAudioQueueInFrames() override;
 
-  nsRefPtr<VideoDataPromise>
-  RequestVideoData(bool aSkipToNextKeyframe, int64_t aTimeThreshold) override;
+  virtual nsRefPtr<VideoDataPromise>
+  RequestVideoData(bool aSkipToNextKeyframe, int64_t aTimeThreshold, bool aForceDecodeAhead) override;
 
-  nsRefPtr<AudioDataPromise> RequestAudioData() override;
+  virtual nsRefPtr<AudioDataPromise> RequestAudioData() override;
 
   bool HasVideo() override
   {
@@ -192,6 +192,7 @@ private:
       : mOwner(aOwner)
       , mType(aType)
       , mDecodeAhead(aDecodeAhead)
+      , mForceDecodeAhead(false)
       , mUpdateScheduled(false)
       , mDemuxEOS(false)
       , mDemuxEOSServiced(false)
@@ -223,6 +224,7 @@ private:
 
     // Only accessed from reader's task queue.
     uint32_t mDecodeAhead;
+    bool mForceDecodeAhead;
     bool mUpdateScheduled;
     bool mDemuxEOS;
     bool mDemuxEOSServiced;

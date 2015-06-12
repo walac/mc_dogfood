@@ -44,7 +44,7 @@ public:
   virtual size_t SizeOfAudioQueueInFrames() override;
 
   virtual nsRefPtr<VideoDataPromise>
-  RequestVideoData(bool aSkipToNextKeyframe, int64_t aTimeThreshold) override;
+  RequestVideoData(bool aSkipToNextKeyframe, int64_t aTimeThreshold, bool aForceDecodeAhead) override;
 
   virtual nsRefPtr<AudioDataPromise> RequestAudioData() override;
 
