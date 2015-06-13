@@ -33,7 +33,7 @@
   <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="a1e239a0bb5cd1d69680bf1075883aa9a7bf2429"/>
   <project groups="linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" revision="c7931763d41be602407ed9d71e2c0292c6597e00"/>
   <project groups="linux,x86" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="a32003194f707f66a2d8cdb913ed1869f1926c5d"/>
-  <project name="device/common" path="device/common" revision="96d4d2006c4fcb2f19a3fa47ab10cb409faa017b"/>
+  <project name="device/common" path="device/common" branch="LNX.LA.3.5.3" revision="96d4d2006c4fcb2f19a3fa47ab10cb409faa017b"/>
   <project name="device/sample" path="device/sample" revision="9c19bbbe0793ebdc427277dc37f9bb4ae20bccb2"/>
   <project name="platform/abi/cpp" path="abi/cpp" revision="18f1b5e28734183ff8073fe86dc46bc4ebba8a59"/>
   <project name="platform/bionic" path="bionic" revision="e36fba720d5327bf5532dfcde013239080f38b56"/>
@@ -47,7 +47,7 @@
   <project name="platform/external/dnsmasq" path="external/dnsmasq" branch="LNX.LA.3.5.2.2.c4_1" revision="a0f273e289166fa488bba261b2d431c9503aed0d"/>
   <project name="platform/external/dropbear" path="external/dropbear" revision="a34ddbe3819bc465968f3676c734b405e655f8b7"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="164ce36fe92b78b92575e56abd101209631b48fc"/>
-  <project name="platform/external/elfutils" path="external/elfutils" revision="b23b2dfb354b3ccf5d1c5d39815f02e7048cf516"/>
+  <project name="platform/external/elfutils" path="external/elfutils" branch="LNX.LA.3.7.3.c4" revision="b23b2dfb354b3ccf5d1c5d39815f02e7048cf516"/>
   <project name="platform/external/expat" path="external/expat" revision="0af0cb3bc7519e567bd9daff3dcd315ab0134a99"/>
   <project name="platform/external/fdlibm" path="external/fdlibm" revision="0da5f683c9ddc9442af3b389b4220e91ccffb320"/>
   <project name="platform/external/flac" path="external/flac" revision="b38b3d2c53c22f542fd764f9d60ef19b49d42e1b"/>
@@ -57,7 +57,7 @@
   <project name="platform/external/giflib" path="external/giflib" revision="9aef3ea079a57c98a9207f8c3b95a5dc08ee74b5"/>
   <project name="platform/external/gtest" path="external/gtest" revision="0f1ce3dd0b880b6ae0cf7f5413702b8ef542efb2"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz" revision="858f2d28ac741ef139f74bdbdbcefa7560f17c91"/>
-  <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" revision="3309edccdbc2a92eb03a285abb27c1c1c4a88e43"/>
+  <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" branch="LNX.LA.3.5.2.2.1_rb1" revision="3309edccdbc2a92eb03a285abb27c1c1c4a88e43"/>
   <project name="platform/external/iproute2" path="external/iproute2" revision="1778c5571f3b9ed213a03ecc80adf74f570b4916"/>
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="f4cb1ee4b00abbfb6f968dc25818c23b4b47e584"/>
   <project name="platform/external/iptables" path="external/iptables" revision="ceedcd308d47976e31eda76a8852edd7f92837de"/>
@@ -78,13 +78,13 @@
   <project name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="c46f53f5e072f23051c4eedef730386f7634dc11"/>
   <project name="platform/external/mksh" path="external/mksh" branch="LNX.LA.3.7.3.c4" revision="f8c396c4d446a038358106a301b329607a04633d"/>
   <project name="platform/external/netcat" path="external/netcat" revision="444644cfa9a2f3002863caa168fb2d6b34dfd1e8"/>
-  <project name="platform/external/openssl" path="external/openssl" revision="bb8428f762b3632f493572c4f73957e1281ade79"/>
+  <project name="platform/external/openssl" path="external/openssl" branch="LNX.LA.3.5.1.1" revision="bb8428f762b3632f493572c4f73957e1281ade79"/>
   <project name="platform/external/protobuf" path="external/protobuf" branch="LNX.LA.3.7.3.c4" revision="48ee66d295979372ed0234cefda42385daae8312"/>
   <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
   <project name="platform/external/scrypt" path="external/scrypt" revision="eb05b73c3bba21fff55529813109de4bad5ddbd1"/>
   <project name="platform/external/sepolicy" path="external/sepolicy" branch="kitkat" revision="6f50b84072d4920ce331226837ba794be72ea2b1"/>
   <project name="platform/external/sfntly" path="external/sfntly" revision="30d4e1f3d81ad9f7a1aa14ce6d2ceb5df56c15cd"/>
-  <project name="platform/external/skia" path="external/skia" revision="84a7058ba19c80ababd8c7c9eb379bf0babcc9ce"/>
+  <project name="platform/external/skia" path="external/skia" tag="LNX.LF.3.5.1-119900-8x26.0" revision="84a7058ba19c80ababd8c7c9eb379bf0babcc9ce"/>
   <project name="platform/external/sonivox" path="external/sonivox" revision="9fb2c53165b1512aa57db0bf1c757e3215e28eb8"/>
   <project name="platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae"/>
   <project name="platform/external/sqlite" path="external/sqlite" revision="ac0e0d5f866fbce0ebf00d0ddd615464849aa83b"/>
@@ -94,7 +94,7 @@
   <project name="platform/external/tagsoup" path="external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
   <project name="platform/external/tcpdump" path="external/tcpdump" revision="841663c88f0692202d57def239267e28cf832cdc"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="c1b682efcd3b3eac3101408231b58ea92c668756"/>
-  <project name="platform/external/tinycompress" path="external/tinycompress" revision="a85e245a09c028d36cbf04f233be10bc583691f5"/>
+  <project name="platform/external/tinycompress" path="external/tinycompress" branch="LNX.LA.3.5.1.1" revision="a85e245a09c028d36cbf04f233be10bc583691f5"/>
   <project name="platform/external/tinyxml" path="external/tinyxml" revision="494e448824844d866e805831d1d5f5acb654065c"/>
   <project name="platform/external/tinyxml2" path="external/tinyxml2" revision="ead7a211773b9366466c6512cf945bc9dd1490a5"/>
   <project name="platform/external/tremolo" path="external/tremolo" revision="78772d5dde5a06eefae281b0dde224fcac46c4ff"/>
@@ -104,7 +104,7 @@
   <project name="platform/external/zlib" path="external/zlib" revision="6eb3570ff8fa71bd83bb375b4bf09804c6089fed"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="dbbe673145107e99883f62bafd70c5f43f11065c"/>
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" branch="LNX.LA.3.7.3.c4" revision="f0c3b4edf597c40aae4ea311575f39c8bcf203df"/>
-  <project name="platform/libcore" path="libcore" branch="LNX.LA.3.5.1.5" revision="baf7d8068dd501cfa338d3a8b1b87216d6ce0571"/>
+  <project name="platform/libcore" path="libcore" branch="LNX.LA.3.5.2.1.1" revision="baf7d8068dd501cfa338d3a8b1b87216d6ce0571"/>
   <project name="platform/libnativehelper" path="libnativehelper" revision="50c4430e32849530ced32680fd6ee98963b3f7ac"/>
   <project name="platform/ndk" path="ndk" branch="kitkat" revision="e58ef003be4306bb53a8c11331146f39e4eab31f"/>
   <project name="platform_prebuilts_misc" path="prebuilts/misc" remote="b2g" revision="23404f05422c6bf3c39573325a4f4909167671b4"/>
@@ -117,7 +117,7 @@
   <project name="platform_system_libfdio" path="system/libfdio" remote="b2g" revision="3c5405863d2002f665ef2b901abb3853c420129b"/>
   <project name="platform/system/netd" path="system/netd" revision="a6531f7befb49b1c81bc0de7e51c5482b308e1c5"/>
   <project name="platform/system/security" path="system/security" revision="ee8068b9e7bfb2770635062fc9c2035be2142bd8"/>
-  <project name="platform/system/vold" path="system/vold" revision="42fa2a0f14f965970a4b629a176bbd2666edf017"/>
+  <project name="platform/system/vold" path="system/vold" branch="LNX.LA.3.5.2.1.1" revision="42fa2a0f14f965970a4b629a176bbd2666edf017"/>
   <project name="platform/external/curl" path="external/curl" revision="e68addd988448959ea8157c5de637346b4180c33"/>
   <project name="platform/external/icu4c" path="external/icu4c" revision="d3ec7428eb276db43b7ed0544e09344a6014806c"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="76c4bf4bc430a1b8317f2f21ef735867733e50cc"/>
@@ -128,7 +128,8 @@
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="1bb28abbc215f45220620af5cd60a8ac1be93722"/>
   <project name="device/qcom/common" path="device/qcom/common" revision="2501e5940ba69ece7654ff85611c76ae5bda299c"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="5ada05ac150f643ef19e87015df7e106b88effe7"/>
-  <project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="d61fc97258c8b0c362430dd2eb195dcc4d266f14"/>
+  <!--project name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="d61fc97258c8b0c362430dd2eb195dcc4d266f14"/-->
+  <remove-project name="platform/external/bluetooth/bluedroid"/>
   <project name="init_sh" path="init_sh" remote="b2g" revision="3bdd26e092db9c47c5beb04b4809a35f8f767b8a"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="0a01977f34d6e86fe23d6c0ec75e96ba988bbebb"/>
   <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="5bb999b84b8adc14f6bea004d523ba258dea8188"/>
