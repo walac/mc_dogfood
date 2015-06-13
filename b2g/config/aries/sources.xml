@@ -73,7 +73,7 @@
   <project name="platform/external/libpcap" path="external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
   <project name="platform/external/libpng" path="external/libpng" revision="cdf9c7fe4febaa4a7b3917d56d4180960e48800f"/>
   <project name="platform/external/libselinux" path="external/libselinux" revision="1e2cf2c4a2d15a9b1ca2d353b99fb6884413ffe1"/>
-  <project name="platform/external/libsepol" path="external/libsepol" revision="edc447a138ec77236f1cbfd36c1211a38ba21418"/>
+  <project name="platform/external/libsepol" path="external/libsepol" branch="LNX.LA.3.7.3.c4" revision="edc447a138ec77236f1cbfd36c1211a38ba21418"/>
   <project name="platform/external/libvpx" path="external/libvpx" revision="ca9281af0bfe816f1ae2fc3e8771524164a0a03c"/>
   <project name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="c46f53f5e072f23051c4eedef730386f7634dc11"/>
   <project name="platform/external/mksh" path="external/mksh" revision="f8c396c4d446a038358106a301b329607a04633d"/>
@@ -104,7 +104,7 @@
   <project name="platform/external/zlib" path="external/zlib" revision="6eb3570ff8fa71bd83bb375b4bf09804c6089fed"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="dbbe673145107e99883f62bafd70c5f43f11065c"/>
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="f0c3b4edf597c40aae4ea311575f39c8bcf203df"/>
-  <project name="platform/libcore" path="libcore" revision="baf7d8068dd501cfa338d3a8b1b87216d6ce0571"/>
+  <project name="platform/libcore" path="libcore" branch="LNX.LA.3.5.1.5" revision="baf7d8068dd501cfa338d3a8b1b87216d6ce0571"/>
   <project name="platform/libnativehelper" path="libnativehelper" revision="50c4430e32849530ced32680fd6ee98963b3f7ac"/>
   <project name="platform/ndk" path="ndk" branch="kitkat" revision="e58ef003be4306bb53a8c11331146f39e4eab31f"/>
   <project name="platform_prebuilts_misc" path="prebuilts/misc" remote="b2g" revision="23404f05422c6bf3c39573325a4f4909167671b4"/>
@@ -124,7 +124,7 @@
   <project name="platform/system/media" path="system/media" revision="c1332c21c608f4932a6d7e83450411cde53315ef"/>
   <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
   <!-- Platform common things -->
-  <project name="device-shinano-common" path="device/sony/shinano-common" remote="b2g" branch="master" revision="ac45522bb3a14aff9facd74e2cd03430e1e0793f"/>
+  <project path="device/sony/shinano-common" name="device-shinano-common" remote="b2g" branch="master" revision="ac45522bb3a14aff9facd74e2cd03430e1e0793f"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="1bb28abbc215f45220620af5cd60a8ac1be93722"/>
   <project name="device/qcom/common" path="device/qcom/common" revision="2501e5940ba69ece7654ff85611c76ae5bda299c"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="5ada05ac150f643ef19e87015df7e106b88effe7"/>
@@ -153,7 +153,7 @@
   <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974" branch="LNX.LA.3.5.2.1.1" revision="ec7bc1a26610922156d7d412b4d3de6b4adb93da"/>
   <project name="vendor_broadcom_wlan" path="vendor/broadcom/wlan" remote="b2g" revision="114b9491a8a919687da4e22fbd89fab511d6d8d7"/>
   <!-- Shinano specific things -->
-  <project name="device-shinano" path="device/sony/shinano" remote="b2g" revision="a7cb315bc0704f589858feb2a34956364acacb08"/>
+  <project path="device/sony/shinano" name="device-shinano" remote="b2g" branch="master" revision="a7cb315bc0704f589858feb2a34956364acacb08"/>
   <!-- Aries specific things -->
-  <project name="device-aries" path="device/sony/aries" remote="b2g" branch="master" revision="75c7e6ca80d0c7a53f346ecfcde2343be95808c9"/>
+  <project path="device/sony/aries" name="device-aries" remote="b2g" branch="master" revision="75c7e6ca80d0c7a53f346ecfcde2343be95808c9"/>
 </manifest>
