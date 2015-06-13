@@ -40,7 +40,7 @@
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="dc8da21282a0c68328d05268433d19b0f2f6a15c"/>
   <project name="platform/external/aac" path="external/aac" branch="kitkat" revision="fa3eba16446cc8f2f5e2dfc20d86a49dbd37299e"/>
   <project name="platform/external/bison" path="external/bison" revision="c2418b886165add7f5a31fc5609f0ce2d004a90e"/>
-  <project name="platform/external/bsdiff" path="external/bsdiff" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff" branch="LNX.LA.3.7.3.c4" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee"/>
   <project name="platform/external/bzip2" path="external/bzip2" branch="kitkat" revision="1cb636bd8e9e5cdfd5d5b2909a122f6e80db62de"/>
   <project name="platform/external/checkpolicy" path="external/checkpolicy" revision="0d73ef7049feee794f14cf1af88d05dae8139914"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="84b7252b0a9d0edc9a1db1e0c518771d26b23058"/>
@@ -66,17 +66,17 @@
   <project name="platform/external/jpeg" path="external/jpeg" revision="1808bfd1060d2fde90478691a4da8ead0cb0a345"/>
   <project name="platform/external/junit" path="external/junit" revision="01da89f7f8a8f9852e0ec1a490e7d2a0ee3785d5"/>
   <project name="platform/external/libgsm" path="external/libgsm" revision="50761abed8f4734970874165b386cfd4d9599db4"/>
-  <project name="platform/external/liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb"/>
+  <project name="platform/external/liblzf" path="external/liblzf" branch="LNX.LA.3.7.3.c4" revision="6946aa575b0949d045722794850896099d937cbb"/>
   <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp" revision="9e987ccb716624d658f98abc7db2097e11e3d8ed"/>
   <project name="platform/external/libnl-headers" path="external/libnl-headers" revision="6ccf7349d61f73ac26a0675d735d903ab919c658"/>
   <project name="platform/external/libogg" path="external/libogg" revision="ec0b24fb1468abe37be4164a6feb16568e036bde"/>
-  <project name="platform/external/libpcap" path="external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
+  <project name="platform/external/libpcap" path="external/libpcap" branch="LNX.LA.3.7.3.c4" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
   <project name="platform/external/libpng" path="external/libpng" revision="cdf9c7fe4febaa4a7b3917d56d4180960e48800f"/>
   <project name="platform/external/libselinux" path="external/libselinux" revision="1e2cf2c4a2d15a9b1ca2d353b99fb6884413ffe1"/>
   <project name="platform/external/libsepol" path="external/libsepol" branch="LNX.LA.3.7.3.c4" revision="edc447a138ec77236f1cbfd36c1211a38ba21418"/>
   <project name="platform/external/libvpx" path="external/libvpx" revision="ca9281af0bfe816f1ae2fc3e8771524164a0a03c"/>
   <project name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="c46f53f5e072f23051c4eedef730386f7634dc11"/>
-  <project name="platform/external/mksh" path="external/mksh" revision="f8c396c4d446a038358106a301b329607a04633d"/>
+  <project name="platform/external/mksh" path="external/mksh" branch="LNX.LA.3.7.3.c4" revision="f8c396c4d446a038358106a301b329607a04633d"/>
   <project name="platform/external/netcat" path="external/netcat" revision="444644cfa9a2f3002863caa168fb2d6b34dfd1e8"/>
   <project name="platform/external/openssl" path="external/openssl" revision="bb8428f762b3632f493572c4f73957e1281ade79"/>
   <project name="platform/external/protobuf" path="external/protobuf" branch="LNX.LA.3.7.3.c4" revision="48ee66d295979372ed0234cefda42385daae8312"/>
@@ -88,7 +88,7 @@
   <project name="platform/external/sonivox" path="external/sonivox" revision="9fb2c53165b1512aa57db0bf1c757e3215e28eb8"/>
   <project name="platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae"/>
   <project name="platform/external/sqlite" path="external/sqlite" revision="ac0e0d5f866fbce0ebf00d0ddd615464849aa83b"/>
-  <project name="platform/external/stlport" path="external/stlport" revision="628e14d37c5b239839a466e81c74bf66255b770b"/>
+  <project name="platform/external/stlport" path="external/stlport" branch="LNX.LA.3.7.3.c4" revision="628e14d37c5b239839a466e81c74bf66255b770b"/>
   <project name="platform/external/strace" path="external/strace" revision="1a4e05d53dec658a061acb9869cb1eb1342cd09d"/>
   <project name="platform/external/svox" path="external/svox" revision="b3c3bf3c1be35f3d455671de9f6d7b9bca3ce73a"/>
   <project name="platform/external/tagsoup" path="external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
@@ -124,7 +124,7 @@
   <project name="platform/system/media" path="system/media" revision="c1332c21c608f4932a6d7e83450411cde53315ef"/>
   <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
   <!-- Platform common things -->
-  <project path="device/sony/shinano-common" name="device-shinano-common" remote="b2g" branch="master" revision="ac45522bb3a14aff9facd74e2cd03430e1e0793f"/>
+  <project path="device/sony/shinano-common" name="device-shinano-common" remote="mozilla" branch="master" revision="ac45522bb3a14aff9facd74e2cd03430e1e0793f"/>
   <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="1bb28abbc215f45220620af5cd60a8ac1be93722"/>
   <project name="device/qcom/common" path="device/qcom/common" revision="2501e5940ba69ece7654ff85611c76ae5bda299c"/>
   <project name="codeaurora_kernel_msm" path="kernel" remote="b2g" revision="5ada05ac150f643ef19e87015df7e106b88effe7"/>
@@ -132,7 +132,7 @@
   <project name="init_sh" path="init_sh" remote="b2g" revision="3bdd26e092db9c47c5beb04b4809a35f8f767b8a"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="0a01977f34d6e86fe23d6c0ec75e96ba988bbebb"/>
   <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="5bb999b84b8adc14f6bea004d523ba258dea8188"/>
-  <project name="timekeep" path="timekeep" remote="b2g" branch="master" revision="58e9fd70a62d2c0ebf9bc2bd99439dcc5be8cad8"/>
+  <project name="timekeep" path="timekeep" remote="mozilla" branch="master" revision="58e9fd70a62d2c0ebf9bc2bd99439dcc5be8cad8"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="5b71e40213f650459e95d35b6f14af7e88d8ab62"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="a920312eb6299b6cc11f7136254c4b0ba7a663be"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="da8e6bc53c8bc669da0bb627904d08aa293f2497"/>
@@ -153,7 +153,7 @@
   <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974" branch="LNX.LA.3.5.2.1.1" revision="ec7bc1a26610922156d7d412b4d3de6b4adb93da"/>
   <project name="vendor_broadcom_wlan" path="vendor/broadcom/wlan" remote="b2g" revision="114b9491a8a919687da4e22fbd89fab511d6d8d7"/>
   <!-- Shinano specific things -->
-  <project path="device/sony/shinano" name="device-shinano" remote="b2g" branch="master" revision="a7cb315bc0704f589858feb2a34956364acacb08"/>
+  <project path="device/sony/shinano" name="device-shinano" remote="mozilla" branch="master" revision="a7cb315bc0704f589858feb2a34956364acacb08"/>
   <!-- Aries specific things -->
-  <project path="device/sony/aries" name="device-aries" remote="b2g" branch="master" revision="75c7e6ca80d0c7a53f346ecfcde2343be95808c9"/>
+  <project path="device/sony/aries" name="device-aries" remote="mozilla" branch="master" revision="75c7e6ca80d0c7a53f346ecfcde2343be95808c9"/>
 </manifest>
