@@ -28,7 +28,7 @@
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="94516f787d477dc307e4566f415e0d2f0794f6b9"/>
   <!-- Stock Android things -->
   <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="95bb5b66b3ec5769c3de8d3f25d681787418e7d2"/>
-  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="ebdad82e61c16772f6cd47e9f11936bf6ebe9aa0"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" branch="LNX.LA.3.7.3.c4" revision="ebdad82e61c16772f6cd47e9f11936bf6ebe9aa0"/>
   <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" branch="kitkat" revision="8b880805d454664b3eed11d0f053cdeafa1ff06e"/>
   <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="a1e239a0bb5cd1d69680bf1075883aa9a7bf2429"/>
   <project groups="linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" revision="c7931763d41be602407ed9d71e2c0292c6597e00"/>
@@ -44,7 +44,7 @@
   <project name="platform/external/bzip2" path="external/bzip2" branch="kitkat" revision="1cb636bd8e9e5cdfd5d5b2909a122f6e80db62de"/>
   <project name="platform/external/checkpolicy" path="external/checkpolicy" revision="0d73ef7049feee794f14cf1af88d05dae8139914"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="84b7252b0a9d0edc9a1db1e0c518771d26b23058"/>
-  <project name="platform/external/dnsmasq" path="external/dnsmasq" revision="a0f273e289166fa488bba261b2d431c9503aed0d"/>
+  <project name="platform/external/dnsmasq" path="external/dnsmasq" branch="LNX.LA.3.5.2.2.c4_1" revision="a0f273e289166fa488bba261b2d431c9503aed0d"/>
   <project name="platform/external/dropbear" path="external/dropbear" revision="a34ddbe3819bc465968f3676c734b405e655f8b7"/>
   <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="164ce36fe92b78b92575e56abd101209631b48fc"/>
   <project name="platform/external/elfutils" path="external/elfutils" revision="b23b2dfb354b3ccf5d1c5d39815f02e7048cf516"/>
@@ -103,7 +103,7 @@
   <project name="platform/external/yaffs2" path="external/yaffs2" revision="a2cff2275e1b501ff478b03757d6e4f05fddc2db"/>
   <project name="platform/external/zlib" path="external/zlib" revision="6eb3570ff8fa71bd83bb375b4bf09804c6089fed"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="dbbe673145107e99883f62bafd70c5f43f11065c"/>
-  <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="f0c3b4edf597c40aae4ea311575f39c8bcf203df"/>
+  <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" branch="LNX.LA.3.7.3.c4" revision="f0c3b4edf597c40aae4ea311575f39c8bcf203df"/>
   <project name="platform/libcore" path="libcore" branch="LNX.LA.3.5.1.5" revision="baf7d8068dd501cfa338d3a8b1b87216d6ce0571"/>
   <project name="platform/libnativehelper" path="libnativehelper" revision="50c4430e32849530ced32680fd6ee98963b3f7ac"/>
   <project name="platform/ndk" path="ndk" branch="kitkat" revision="e58ef003be4306bb53a8c11331146f39e4eab31f"/>
@@ -132,12 +132,12 @@
   <project name="init_sh" path="init_sh" remote="b2g" revision="3bdd26e092db9c47c5beb04b4809a35f8f767b8a"/>
   <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="0a01977f34d6e86fe23d6c0ec75e96ba988bbebb"/>
   <project name="platform_external_libnfc-pn547" path="external/libnfc-pn547" remote="b2g" revision="5bb999b84b8adc14f6bea004d523ba258dea8188"/>
-  <project name="timekeep" path="external/timekeep" remote="b2g" revision="58e9fd70a62d2c0ebf9bc2bd99439dcc5be8cad8"/>
+  <project name="timekeep" path="timekeep" remote="b2g" branch="master" revision="58e9fd70a62d2c0ebf9bc2bd99439dcc5be8cad8"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="5b71e40213f650459e95d35b6f14af7e88d8ab62"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="a920312eb6299b6cc11f7136254c4b0ba7a663be"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="da8e6bc53c8bc669da0bb627904d08aa293f2497"/>
   <project name="platform/frameworks/native" path="frameworks/native" revision="a46a9f1ac0ed5662d614c277cbb14eb3f332f365"/>
-  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="7196881a0e9dd7bfbbcf0af64c8064e70f0fa094"/>
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" branch="LNX.LF.3.5.2.2" revision="7196881a0e9dd7bfbbcf0af64c8064e70f0fa094"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="15a9b66de9b7d84c7ea63df3a834f095bca9e493"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="8d7676dfb68ee0cd069affedd5d1e97316a184ba"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="2a1ded216a91bf62a72b1640cf01ab4998f37028"/>
