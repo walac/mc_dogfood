@@ -84,7 +84,7 @@
   <project name="platform/external/scrypt" path="external/scrypt" revision="eb05b73c3bba21fff55529813109de4bad5ddbd1"/>
   <project name="platform/external/sepolicy" path="external/sepolicy" branch="kitkat" revision="6f50b84072d4920ce331226837ba794be72ea2b1"/>
   <project name="platform/external/sfntly" path="external/sfntly" revision="30d4e1f3d81ad9f7a1aa14ce6d2ceb5df56c15cd"/>
-  <project name="platform/external/skia" path="external/skia" tag="LNX.LF.3.5.1-119900-8x26.0" revision="84a7058ba19c80ababd8c7c9eb379bf0babcc9ce"/>
+  <project name="platform/external/skia" path="external/skia" branch="LNX.LA.3.5.2.1.1" revision="84a7058ba19c80ababd8c7c9eb379bf0babcc9ce"/>
   <project name="platform/external/sonivox" path="external/sonivox" revision="9fb2c53165b1512aa57db0bf1c757e3215e28eb8"/>
   <project name="platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae"/>
   <project name="platform/external/sqlite" path="external/sqlite" revision="ac0e0d5f866fbce0ebf00d0ddd615464849aa83b"/>
