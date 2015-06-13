@@ -21,7 +21,7 @@
   <project name="fake-libdvm" path="dalvik" remote="b2g" revision="d50ae982b19f42f0b66d08b9eb306be81687869f"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="3477513bcd385571aa01c0d074849e35bd5e2376"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="1b3591a50ed352fc6ddb77462b7b35d0bfa555a3"/>
-  <project name="moztt" path="external/moztt" remote="b2g" revision="46da1a05ac04157669685246d70ac59d48699c9e"/>
+  <project name="moztt" path="external/moztt" branch="master" remote="b2g" revision="46da1a05ac04157669685246d70ac59d48699c9e"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="5ef30994f4778b4052e58a4383dbe7890048c87e"/>
   <project name="valgrind" path="external/valgrind" remote="b2g" revision="daa61633c32b9606f58799a3186395fd2bbb8d8c"/>
   <project name="vex" path="external/VEX" remote="b2g" revision="47f031c320888fe9f3e656602588565b52d43010"/>
@@ -35,7 +35,7 @@
   <project groups="linux,x86" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="a32003194f707f66a2d8cdb913ed1869f1926c5d"/>
   <project name="device/common" path="device/common" branch="LNX.LA.3.5.3" revision="96d4d2006c4fcb2f19a3fa47ab10cb409faa017b"/>
   <project name="device/sample" path="device/sample" revision="9c19bbbe0793ebdc427277dc37f9bb4ae20bccb2"/>
-  <project name="platform/abi/cpp" path="abi/cpp" revision="18f1b5e28734183ff8073fe86dc46bc4ebba8a59"/>
+  <project name="platform/abi/cpp" path="abi/cpp" branch="LNX.LA.3.7.3.c4" revision="18f1b5e28734183ff8073fe86dc46bc4ebba8a59"/>
   <project name="platform/bionic" path="bionic" revision="e36fba720d5327bf5532dfcde013239080f38b56"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="dc8da21282a0c68328d05268433d19b0f2f6a15c"/>
   <project name="platform/external/aac" path="external/aac" branch="kitkat" revision="fa3eba16446cc8f2f5e2dfc20d86a49dbd37299e"/>
@@ -50,19 +50,19 @@
   <project name="platform/external/elfutils" path="external/elfutils" branch="LNX.LA.3.7.3.c4" revision="b23b2dfb354b3ccf5d1c5d39815f02e7048cf516"/>
   <project name="platform/external/expat" path="external/expat" revision="0af0cb3bc7519e567bd9daff3dcd315ab0134a99"/>
   <project name="platform/external/fdlibm" path="external/fdlibm" revision="0da5f683c9ddc9442af3b389b4220e91ccffb320"/>
-  <project name="platform/external/flac" path="external/flac" revision="b38b3d2c53c22f542fd764f9d60ef19b49d42e1b"/>
+  <project name="platform/external/flac" path="external/flac" branch="LNX.LA.3.5.2.1.1" revision="b38b3d2c53c22f542fd764f9d60ef19b49d42e1b"/>
   <project name="platform/external/freetype" path="external/freetype" revision="899c67b6cfcd2010784fbf08c5415af16c526e0c"/>
   <project name="platform/external/gcc-demangle" path="external/gcc-demangle" revision="9241386b62c353302c2f9eccda0672685b252b4d"/>
   <project name="platform/external/genext2fs" path="external/genext2fs" revision="e11a9c7fe6f1cef99aad2f25afaea37b72fe9f93"/>
   <project name="platform/external/giflib" path="external/giflib" revision="9aef3ea079a57c98a9207f8c3b95a5dc08ee74b5"/>
-  <project name="platform/external/gtest" path="external/gtest" revision="0f1ce3dd0b880b6ae0cf7f5413702b8ef542efb2"/>
+  <project name="platform/external/gtest" path="external/gtest" branch="LNX.LA.3.7.3.c4" revision="0f1ce3dd0b880b6ae0cf7f5413702b8ef542efb2"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz" revision="858f2d28ac741ef139f74bdbdbcefa7560f17c91"/>
   <project name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" branch="LNX.LA.3.5.2.2.1_rb1" revision="3309edccdbc2a92eb03a285abb27c1c1c4a88e43"/>
   <project name="platform/external/iproute2" path="external/iproute2" revision="1778c5571f3b9ed213a03ecc80adf74f570b4916"/>
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="f4cb1ee4b00abbfb6f968dc25818c23b4b47e584"/>
   <project name="platform/external/iptables" path="external/iptables" revision="ceedcd308d47976e31eda76a8852edd7f92837de"/>
   <project name="platform/external/jack" path="external/jack" revision="5ceb2025ac5d25ed48183ac2d3dac4691fe761fb"/>
-  <project name="platform/external/jhead" path="external/jhead" revision="31b17e69a87e4caa50f9c6b1a47c84ef75f79d83"/>
+  <project name="platform/external/jhead" path="external/jhead" branch="LNX.LA.3.5.1.1" revision="31b17e69a87e4caa50f9c6b1a47c84ef75f79d83"/>
   <project name="platform/external/jpeg" path="external/jpeg" revision="1808bfd1060d2fde90478691a4da8ead0cb0a345"/>
   <project name="platform/external/junit" path="external/junit" revision="01da89f7f8a8f9852e0ec1a490e7d2a0ee3785d5"/>
   <project name="platform/external/libgsm" path="external/libgsm" revision="50761abed8f4734970874165b386cfd4d9599db4"/>
@@ -106,9 +106,9 @@
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" branch="LNX.LA.3.7.3.c4" revision="f0c3b4edf597c40aae4ea311575f39c8bcf203df"/>
   <project name="platform/libcore" path="libcore" branch="LNX.LA.3.5.2.1.1" revision="baf7d8068dd501cfa338d3a8b1b87216d6ce0571"/>
   <project name="platform/libnativehelper" path="libnativehelper" revision="50c4430e32849530ced32680fd6ee98963b3f7ac"/>
-  <project name="platform/ndk" path="ndk" branch="kitkat" revision="e58ef003be4306bb53a8c11331146f39e4eab31f"/>
+  <project name="platform/ndk" path="ndk" branch="LNX.LA.3.7.3.c4" revision="e58ef003be4306bb53a8c11331146f39e4eab31f"/>
   <project name="platform_prebuilts_misc" path="prebuilts/misc" remote="b2g" revision="23404f05422c6bf3c39573325a4f4909167671b4"/>
-  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="c792f0bd9fff7aea2887c60bbb3a9bbdb534ffa3"/>
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" branch="LNX.LA.3.7.3.c4" revision="c792f0bd9fff7aea2887c60bbb3a9bbdb534ffa3"/>
   <project name="platform_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="b2g" revision="6a1bb59af65b6485b1090522f66fac95c3f9e22c"/>
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="69d524e80cdf3981006627c65ac85f3a871238a3"/>
   <project name="platform/prebuilts/tools" path="prebuilts/tools" revision="5a48c04c4bb5f079bc757e29864a42427378e051"/>
