@@ -22,7 +22,7 @@
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="3477513bcd385571aa01c0d074849e35bd5e2376"/>
   <project name="librecovery" path="librecovery" remote="b2g" revision="1b3591a50ed352fc6ddb77462b7b35d0bfa555a3"/>
   <project name="moztt" path="external/moztt" branch="master" remote="b2g" revision="46da1a05ac04157669685246d70ac59d48699c9e"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="5ef30994f4778b4052e58a4383dbe7890048c87e"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" branch="master" revision="5ef30994f4778b4052e58a4383dbe7890048c87e"/>
   <project name="valgrind" path="external/valgrind" remote="b2g" revision="daa61633c32b9606f58799a3186395fd2bbb8d8c"/>
   <project name="vex" path="external/VEX" remote="b2g" revision="47f031c320888fe9f3e656602588565b52d43010"/>
   <project name="apitrace" path="external/apitrace" remote="apitrace" revision="94516f787d477dc307e4566f415e0d2f0794f6b9"/>
@@ -85,7 +85,7 @@
   <project name="platform/external/sepolicy" path="external/sepolicy" branch="kitkat" revision="6f50b84072d4920ce331226837ba794be72ea2b1"/>
   <project name="platform/external/sfntly" path="external/sfntly" revision="30d4e1f3d81ad9f7a1aa14ce6d2ceb5df56c15cd"/>
   <project name="platform/external/skia" path="external/skia" branch="LNX.LA.3.5.2.1.1" revision="84a7058ba19c80ababd8c7c9eb379bf0babcc9ce"/>
-  <project name="platform/external/sonivox" path="external/sonivox" revision="9fb2c53165b1512aa57db0bf1c757e3215e28eb8"/>
+  <project name="platform/external/sonivox" path="external/sonivox" branch="LNX.LA.3.5.3" revision="9fb2c53165b1512aa57db0bf1c757e3215e28eb8"/>
   <project name="platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae"/>
   <project name="platform/external/sqlite" path="external/sqlite" revision="ac0e0d5f866fbce0ebf00d0ddd615464849aa83b"/>
   <project name="platform/external/stlport" path="external/stlport" branch="LNX.LA.3.7.3.c4" revision="628e14d37c5b239839a466e81c74bf66255b770b"/>
