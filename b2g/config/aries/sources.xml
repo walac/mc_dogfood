@@ -83,7 +83,7 @@
   <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
   <project name="platform/external/scrypt" path="external/scrypt" revision="eb05b73c3bba21fff55529813109de4bad5ddbd1"/>
   <project name="platform/external/sepolicy" path="external/sepolicy" branch="kitkat" revision="6f50b84072d4920ce331226837ba794be72ea2b1"/>
-  <project name="platform/external/sfntly" path="external/sfntly" revision="30d4e1f3d81ad9f7a1aa14ce6d2ceb5df56c15cd"/>
+  <project name="platform/external/sfntly" path="external/sfntly" branch="LNX.LA.3.5.3" revision="30d4e1f3d81ad9f7a1aa14ce6d2ceb5df56c15cd"/>
   <project name="platform/external/skia" path="external/skia" branch="LNX.LA.3.5.2.1.1" revision="84a7058ba19c80ababd8c7c9eb379bf0babcc9ce"/>
   <project name="platform/external/sonivox" path="external/sonivox" branch="LNX.LA.3.5.3" revision="9fb2c53165b1512aa57db0bf1c757e3215e28eb8"/>
   <project name="platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae"/>
@@ -120,7 +120,7 @@
   <project name="platform/system/vold" path="system/vold" branch="LNX.LA.3.5.2.1.1" revision="42fa2a0f14f965970a4b629a176bbd2666edf017"/>
   <project name="platform/external/curl" path="external/curl" revision="e68addd988448959ea8157c5de637346b4180c33"/>
   <project name="platform/external/icu4c" path="external/icu4c" revision="d3ec7428eb276db43b7ed0544e09344a6014806c"/>
-  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="76c4bf4bc430a1b8317f2f21ef735867733e50cc"/>
+  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" path=" revision="76c4bf4bc430a1b8317f2f21ef735867733e50cc"/>
   <project name="platform/system/media" path="system/media" revision="c1332c21c608f4932a6d7e83450411cde53315ef"/>
   <default remote="caf" revision="LNX.LA.3.5.2.1.1" sync-j="4"/>
   <!-- Platform common things -->
@@ -155,5 +155,5 @@
   <!-- Shinano specific things -->
   <project path="device/sony/shinano" name="device-shinano" remote="mozilla" branch="master" revision="a7cb315bc0704f589858feb2a34956364acacb08"/>
   <!-- Aries specific things -->
-  <project path="device/sony/aries" name="device-aries" remote="mozilla" branch="master" revision="75c7e6ca80d0c7a53f346ecfcde2343be95808c9"/>
+  <project path="device/sony/aries" name="device-aries" remote="b2g" branch="master" revision="75c7e6ca80d0c7a53f346ecfcde2343be95808c9"/>
 </manifest>
