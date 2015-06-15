@@ -136,7 +136,7 @@
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="5b71e40213f650459e95d35b6f14af7e88d8ab62"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="a920312eb6299b6cc11f7136254c4b0ba7a663be"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="da8e6bc53c8bc669da0bb627904d08aa293f2497"/>
-  <project name="platform/frameworks/native" path="frameworks/native" revision="a46a9f1ac0ed5662d614c277cbb14eb3f332f365"/>
+  <project name="platform/frameworks/native" path="frameworks/native" branch="b2g_kk_3.5" revision="a46a9f1ac0ed5662d614c277cbb14eb3f332f365"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware" branch="LNX.LF.3.5.2.2" revision="7196881a0e9dd7bfbbcf0af64c8064e70f0fa094"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="15a9b66de9b7d84c7ea63df3a834f095bca9e493"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="8d7676dfb68ee0cd069affedd5d1e97316a184ba"/>
